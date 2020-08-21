@@ -1,0 +1,8 @@
+.jumbotronJum {
+  background: url('./images/car.jpg');
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
