@@ -7,20 +7,22 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <JumbotronJum title={'Home'} subtitle={'Build your future with us...'} />
-        <h1>Home</h1>
-        <p>
-          lorem asdsadaskljkk aksldjksldjkalj kjaskldjaskl jakl ka jkasljdkla jklas jkalsj dklasjdklasj dkl
-          sdflkdslfksldfklsdjfklsdjfklsjdfkl jkls jksdljfsdk jk jfkls j lksj klsjd klfjsdklfjsdkljf kljs klfjsdklfjsdkljf
-          sakmfsdklfmklsdfklsjd kl jsdklf jdskl jskdl jfklsd jklsdj fklsdjf klsdjflsdj klsjdf kljsd fkljds fklsjdfk ljsd
-          fksdlf slkdfl;sdkf;l ksl;f klsd; kfl;sd kfl;sdkf
-        </p>
-        <p>
-          lorem asdsadaskljkk aksldjksldjkalj kjaskldjaskl jakl ka jkasljdkla jklas jkalsj dklasjdklasj dkl
-          sdflkdslfksldfklsdjfklsdjfklsjdfkl jkls jksdljfsdk jk jfkls j lksj klsjd klfjsdklfjsdkljf kljs klfjsdklfjsdkljf
-          sakmfsdklfmklsdfklsjd kl jsdklf jdskl jskdl jfklsd jklsdj fklsdjf klsdjflsdj klsjdf kljsd fkljds fklsjdfk ljsd
-          fksdlf slkdfl;sdkf;l ksl;f klsd; kfl;sd kfl;sdkf
-        </p>
+        <JumbotronJum title={'Home'} subtitle={'Build your future with us...'} />
+        <div className='container'>
+          <h1>Home</h1>
+          <p>
+            lorem asdsadaskljkk aksldjksldjkalj kjaskldjaskl jakl ka jkasljdkla jklas jkalsj dklasjdklasj dkl
+            sdflkdslfksldfklsdjfklsdjfklsjdfkl jkls jksdljfsdk jk jfkls j lksj klsjd klfjsdklfjsdkljf kljs klfjsdklfjsdkljf
+            sakmfsdklfmklsdfklsjd kl jsdklf jdskl jskdl jfklsd jklsdj fklsdjf klsdjflsdj klsjdf kljsd fkljds fklsjdfk ljsd
+            fksdlf slkdfl;sdkf;l ksl;f klsd; kfl;sd kfl;sdkf
+          </p>
+          <p>
+            lorem asdsadaskljkk aksldjksldjkalj kjaskldjaskl jakl ka jkasljdkla jklas jkalsj dklasjdklasj dkl
+            sdflkdslfksldfklsdjfklsdjfklsjdfkl jkls jksdljfsdk jk jfkls j lksj klsjd klfjsdklfjsdkljf kljs klfjsdklfjsdkljf
+            sakmfsdklfmklsdfklsjd kl jsdklf jdskl jskdl jfklsd jklsdj fklsdjf klsdjflsdj klsjdf kljsd fkljds fklsjdfk ljsd
+            fksdlf slkdfl;sdkf;l ksl;f klsd; kfl;sd kfl;sdkf
+          </p>
+        </div>
       <Footer />
     </div>
   )
